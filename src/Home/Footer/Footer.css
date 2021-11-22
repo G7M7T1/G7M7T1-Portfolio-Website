@@ -1,0 +1,34 @@
+.footer-container {
+  height: 17.8%;
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-parent {
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+}
+
+.footer-parent img {
+  max-width: 100%;
+  height: 130px;
+}
+
+@media only screen and (max-width: 1110px) {
+  .footer-parent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */
